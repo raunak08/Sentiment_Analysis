@@ -4,7 +4,7 @@ IMDB Large Movie Dataset Sentiment Analysis Classification:
 
 This dataset was used as a mini-project for the class of Data Science-II (NLP)
 
-GITHUB: 
+GITHUB: https://github.com/raunak08
 
 
 
@@ -135,24 +135,3 @@ it had shown F1 score of 83%.
 
 7.1: Maximum Entropy Model:
 This is similar to logistic model. However, I was not able to run it.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
