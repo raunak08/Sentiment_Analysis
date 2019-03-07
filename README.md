@@ -69,11 +69,18 @@ most unqiue words from the corpus and creates a sparse matrix.
 3. ALGORITHMS:
 
 3.1: NAIVE BAYES (BERNOULLI, MULTINOMIAL)
+
 3.2: LOGISTIC REGRESSION 
+
 3.3: SUPPORT VECTOR MACHINES (SVM) (LINEAR, RBF, POLY, SIGMOID)
+
 3.4: RANDOM FOREST
+
 3.5: GRADIENTBOOST
+
 3.6: MAXIMUM_ENTROPY 
+
+
 
 
 3.1: NAIVE BAYES:
@@ -106,7 +113,7 @@ for Alpha = 5
 for Alpha = 2, 0.3
 
 
-4.1: Support Vector Machines:
+4.1: SUPPORT VECTOR MACHINES:
 The support vector machines are another classifier widely used for natural language processing. SVM's creates
 a hyperplane/s to classify data with accuracy controlled by the cost function, alpha, gamma and other parameters.
 There are 4 types of solvers used with linear giving the best f1 score. This is probably because the data
@@ -121,17 +128,22 @@ F-1 scores and accuracy. However, since it takes long to implement, I havent upl
 The 'poly' and 'sigmoid' functions are also used since the data is binary to see if we could get better F1.
 
 
-5.1: Random Forest:
+
+5.1: RANDOM FOREST:
 The random forest classifier fits a number of decision tress classifiers on various samples of the imdb 
 train dataset and averages the output reducing the bias and variance. The input to this classifier is 
 the 'tfidf' train set.
 However with such a high accuracy, it is leading me to believe, that the model may overfit with low bias and
 high variance becuase I have used may trees. 
 
-6.1: Gradient Boost:
+
+
+6.1: GRADIENT BOOST:
 The gradient boosting method is widely used. The learning parameter alpha is set to 1 and n_params is set
 to 50. But we can see it is not giving enough accuracy. I ran out of time to run it for n_params =1000 and 
 it had shown F1 score of 83%.
 
-7.1: Maximum Entropy Model:
+
+
+7.1: MAXIMUM ENTROPY MODEL:
 This is similar to logistic model. However, I was not able to run it.
