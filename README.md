@@ -1,4 +1,5 @@
 #Challenge
+
 This challenge is used as a mini-project for NLP class at The University of Illinois Chicago (UIC), Department of Industrial Engineering. I am fairly new to machine learning and I may have made some mistakes with application of algorithms. The mini-project had to be submitted in 5 days so, there's only so much I can do. The Sentiment Analysis of the IMDB large movie dataset. The dataset is highly polarized with 50000 movie review. The primary task is to classify the reviews into negative(ratings 0 to 4) and positive (ratings 7-10) using machine learning techniques. 
 
 
