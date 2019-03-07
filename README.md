@@ -1,3 +1,7 @@
+#Challenge
+This challenge is used as a mini-project for NLP class at The University of Illinois Chicago (UIC), Department of Industrial Engineering. I am fairly new to machine learning and I may have made some mistakes with application of algorithms. The mini-project had to be submitted in 5 days so, there's only so much I can do. The Sentiment Analysis of the IMDB large movie dataset. The dataset is highly polarized with 50000 movie review. The primary task is to classify the reviews into negative(ratings 0 to 4) and positive (ratings 7-10) using machine learning techniques. 
+
+
 # Sentiment_Analysis
 Sentiment Analysis of the IMDB large movie dataset. The dataset is highly polarized with 50000 movie review. The primary task is to classify the reviews into negative(ratings 0 to 4) and positive (ratings 7-10) using machine learning techniques.
 IMDB Large Movie Dataset Sentiment Analysis Classification:
@@ -5,7 +9,6 @@ IMDB Large Movie Dataset Sentiment Analysis Classification:
 This dataset was used as a mini-project for the class of Data Science-II (NLP)
 
 GITHUB: https://github.com/raunak08
-
 
 
 The dataset is collected from the website:
